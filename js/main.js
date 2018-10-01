@@ -6,7 +6,7 @@ $('#menuButton').on('click', function(){
 	$('.btn-nav').hide();
 });
 
-$('.nav__list, .hero').on('click', function(){
+$('.nav__list, .hero__wrap').on('click', function(){
 	$('body').removeClass('is-active');
 	$('.btn-nav').removeClass('is-active');
 	$('.btn-nav.is-active').removeClass('is-active');

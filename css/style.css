@@ -284,62 +284,6 @@ body.is-active {
 	width: 80%;
 }
 
-.btn-nav {
-	background: none;
-	cursor: pointer;
-	display: none;
-	height: 20px;
-	position: absolute;
-	right: 35px;
-	top: 50%;
-	transform: translate(50%, -50%);
-	width: 22px;
-	z-index: 10;
-}
-
-.btn-nav span {
-	background-color: #fff;
-	border-radius: 1px;
-	display: block;
-	height: 3px;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	transition: .3s;
-	transition-delay: .3s;
-	width: 22px;
-}
-
-.btn-nav span:before {
-	background-color: #fff;
-	border-radius: 1px;
-	content: '';
-	display: block;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: -7px;
-	transition-delay: 0.3s, 0s;
-	transition-duration: 0.3s, 0.3s;
-	transition-property: top , transform;
-	width: 100%;
-}
-
-.btn-nav span:after {
-	background-color: #fff;
-	border-radius: 1px;
-	content: '';
-	display: block;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 7px;
-	transition-delay: 0.3s, 0s;
-	transition-duration: 0.3s, 0.3s;
-	transition-property: top , transform;
-	width: 100%;
-}
 
 
 .nav__list {
@@ -1438,6 +1382,61 @@ body.is-active {
 }
 
 @media only screen and (max-width: 767px) {
+.btn-nav {
+	cursor: pointer;
+	height: 20px;
+	position: absolute;
+	right: 35px;
+	top: 50%;
+	transform: translate(50%, -50%);
+	width: 22px;
+	z-index: 10;
+	background: none;
+}
+
+.btn-nav span {
+	background-color: #fff;
+	border-radius: 1px;
+	display: block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+	transition-delay: .3s;
+	width: 22px;
+}
+
+.btn-nav span:before {
+	background-color: #fff;
+	border-radius: 1px;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: -7px;
+	transition-delay: 0.3s, 0s;
+	transition-duration: 0.3s, 0.3s;
+	transition-property: top , transform;
+	width: 100%;
+}
+
+.btn-nav span:after {
+	background-color: #fff;
+	border-radius: 1px;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 7px;
+	transition-delay: 0.3s, 0s;
+	transition-duration: 0.3s, 0.3s;
+	transition-property: top , transform;
+	width: 100%;
+}
 
 .title-l {
 	font-size: 20px;
