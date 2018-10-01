@@ -235,7 +235,7 @@ body.is-active {
 }
 
 .btn {
-	background: #feec49;
+	background: #9addfc;
 	border-radius: 3px;
 	color: #355576;
 	display: inline-block;
@@ -846,97 +846,6 @@ body.is-active {
 	vertical-align: middle;
 }
 
-.shakers__top {
-	display: flex;
-	margin: 0 auto;
-	max-width: 980px;
-	padding: 80px 15px 75px;
-}
-
-.shakers__title {
-	padding: 35px 35px 0 0;
-}
-
-.shakers__img {
-	width: 58.36%;
-}
-
-.shakers__img img {
-	width: 100%;
-}
-
-.shakers__in {
-	margin: 0 auto;
-	max-width: 980px;
-	padding: 0 15px;
-}
-
-.shakers__content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-bottom: 92px;
-}
-
-.shakers__content-mob {
-	display: none;
-}
-
-.shakers__col {
-	margin-bottom: 14px;
-	margin-right: 15px;
-	position: relative;
-}
-
-.shakers__col:last-child {
-	margin-right: 0;
-}
-
-.shakers__subtitle {
-	margin-bottom: 12px;
-}
-
-.shakers__button-group {
-	border: 1px solid #1e8bf0;
-	border-radius: 3px;
-	font-size: 0;
-	overflow: hidden;
-	position: relative;
-}
-
-.shakers__button {
-	background: white;
-	color: #1e8bf0;
-	font-size: 10px;
-	line-height: 10px;
-	overflow: hidden;
-	padding: 11px 8px;
-}
-
-.shakers__button.is-checked {
-	background: #1e8bf0;
-	color: #fff;
-	padding: 11px 13px;
-}
-
-.shakers__button-mob {
-	display: none;
-}
-
-.shakers__inner {
-	margin-top: -14px;
-	width: 100%;
-}
-
-.grid__col {
-	margin-bottom: 50px;
-	padding: 10px;
-	width: 185px;
-}
-
-.grid__link {
-	display: block;
-}
 
 .item {
 	align-items: center;
@@ -1464,37 +1373,6 @@ body.is-active {
 
 @media only screen and (max-width: 870px) {
 
-.shakers__content {
-	display: block;
-	margin-bottom: 40px;
-	text-align: left;
-}
-
-.shakers__content-mob {
-	display: block;
-	margin-bottom: 40px;
-	text-align: left;
-}
-
-.shakers__col {
-	margin-bottom: 20px;
-	margin-right: 0;
-}
-
-.shakers__button-group {
-	border: 1px solid #1e8bf0;
-	border-radius: 0 0 3px 3px;
-	font-size: 0;
-	margin-top: -1px;
-	opacity: 0;
-	position: absolute;
-	top: 100%;
-	transition: opacity 0.3s, visibility 0.3s;
-	visibility: hidden;
-	width: 100%;
-	z-index: 10;
-}
-
 .is-open .shakers__button-group {
 	opacity: 1;
 	visibility: visible;
@@ -1560,19 +1438,6 @@ body.is-active {
 }
 
 @media only screen and (max-width: 767px) {
-	.close {
-	/*cursor: pointer;
-	height: 20px;
-	position: absolute;
-	right: 35px;
-	top: 50%;
-	transform: translate(50%, -50%);
-	width: 22px;
-	z-index: 10;*/
-	background: url(../img/fb.png);
-}
-
-
 
 .title-l {
 	font-size: 20px;
@@ -2053,11 +1918,4 @@ body.is-active {
 
 }
 
-@media only screen and (max-width: 599px) {
-
-.about__video {
-	height: 164px;
-}
-
-}
 
